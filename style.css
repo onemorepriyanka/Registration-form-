@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container{
+    max-width: 80%;
+
+    padding: 22px;
+    margin: auto;
+  
+}
+.container h2,h4{
+    
+    text-align: center;
+    font-family: 'Newsreader', serif;
+
+}
+
+input,textarea{
+    
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 5px;
+
+}
+textarea{
+    height: 0%;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.btn{
+    color: white;
+    background-color: purple;
+    padding: 5px 18px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    
+}
+.submitMsg{
+    font-size: 17px;
+    color: blue;
+}
